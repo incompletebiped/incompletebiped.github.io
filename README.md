@@ -1,7 +1,7 @@
 # incompletebiped.github.io
 
 Personal site, built with React + Vite + TypeScript. Deploys automatically to
-GitHub Pages via GitHub Actions on every push to `main`.
+GitHub Pages via GitHub Actions on every push to `main`.  
 
 ## Develop
 
