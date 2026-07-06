@@ -1,0 +1,9 @@
+# GitShift personal account configuration
+**/github-accounts.json
+
+# Node / Vite
+node_modules/
+dist/
+*.local
+npm-debug.log*
+

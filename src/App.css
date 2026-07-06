@@ -1,0 +1,118 @@
+.page {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 64px 24px 40px;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero {
+  margin-bottom: 56px;
+}
+
+.prompt {
+  font-size: 14px;
+  color: var(--text-dim);
+  margin-bottom: 16px;
+}
+
+.prompt-user {
+  color: var(--accent);
+}
+
+.prompt-sep,
+.prompt-path {
+  color: var(--text-dim);
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin: 0 0 12px;
+  letter-spacing: -0.5px;
+}
+
+.hero h1::before {
+  content: '> ';
+  color: var(--accent);
+}
+
+.tagline {
+  color: var(--text);
+  max-width: 52ch;
+  margin-bottom: 20px;
+}
+
+.links {
+  display: flex;
+  gap: 16px;
+}
+
+main {
+  flex: 1;
+}
+
+.section-title {
+  font-size: 18px;
+  text-transform: lowercase;
+  color: var(--text-dim);
+  margin-bottom: 16px;
+}
+
+.section-title::before {
+  content: '# ';
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  border: 1px solid var(--border);
+  background: var(--bg-raised);
+  border-radius: 6px;
+  padding: 18px 20px;
+  transition: border-color 0.15s;
+}
+
+.card:hover {
+  border-color: var(--accent);
+}
+
+.card h3 {
+  font-size: 16px;
+  margin: 0 0 8px;
+}
+
+.card p {
+  color: var(--text-dim);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.tags {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 0;
+  margin: 12px 0 0;
+}
+
+.tags li {
+  font-size: 12px;
+  color: var(--accent);
+  background: var(--accent-dim);
+  border-radius: 4px;
+  padding: 2px 8px;
+}
+
+footer {
+  margin-top: 56px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+  color: var(--text-dim);
+  font-size: 13px;
+}
