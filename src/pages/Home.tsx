@@ -20,18 +20,10 @@ function Home() {
         <div className="masthead-main">
           <div className="masthead-label">The Stacks · A Personal Library · Est. Texas</div>
           <h1>IncompleteBiped</h1>
-          <p className="masthead-tagline">"Just a nerd that likes to play with code."</p>
+          <p className="masthead-tagline">"Just a book nerd that likes to play with code."</p>
           <div className="masthead-actions">
             <a href="#collection" className="btn btn-primary">
               Browse the catalog
-            </a>
-            <a
-              href="https://killian.consulting"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn-secondary"
-            >
-              killian.consulting↗
             </a>
           </div>
         </div>
@@ -97,11 +89,7 @@ function Home() {
           <div className="section-label section-label-solo">// About the Librarian</div>
           <p>
             I build small, sharp tools — mostly the kind that clean up after messy workflows:
-            juggling accounts, switching identities, load-balancing myself across machines. I run{' '}
-            <a href="https://killian.consulting" target="_blank" rel="noopener noreferrer">
-              Killian&nbsp;Consulting
-            </a>{' '}
-            out of Texas.
+            juggling accounts, switching identities, load-balancing myself across machines.
           </p>
           <p>
             This site is my card catalog — a place to shelve what I make and jot what I'm
