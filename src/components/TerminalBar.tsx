@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
+import { Link } from 'react-router-dom'
 
 const COMMANDS = ['ls ./collection --sort=recent', 'cat ./writing.log', 'whoami']
 
@@ -57,13 +58,13 @@ function TerminalBar() {
         <span className="dot dot-green" />
       </div>
       <div className="terminal-prompt">
-        bailey@the-stacks:~$ <span className="terminal-typed">{typed}</span>
+        incompletebiped@the-stacks:~$ <span className="terminal-typed">{typed}</span>
         <span className="cursor cursor-amber" />
       </div>
       <nav className="terminal-nav">
-        <a href="#collection">Collection</a>
-        <a href="#writing">Writing</a>
-        <a href="#about">About</a>
+        <Link to="/#collection">Collection</Link>
+        <Link to="/#writing">Writing</Link>
+        <Link to="/#about">About</Link>
         <a href="https://github.com/incompletebiped" target="_blank" rel="noopener noreferrer">
           GitHub↗
         </a>
