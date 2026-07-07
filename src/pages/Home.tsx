@@ -25,6 +25,14 @@ function Home() {
             <a href="#collection" className="btn btn-primary">
               Browse the catalog
             </a>
+            <a
+              href="https://ko-fi.com/incompletebiped"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-secondary"
+            >
+              ko-fi.com/incompletebiped↗
+            </a>
           </div>
         </div>
         <div className="masthead-card">
